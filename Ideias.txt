@@ -1,0 +1,72 @@
+Cadastro Funcionario/Empresa/Cliente/Documento/Departamento/Protocolo /Processamento /Cargo 
+
+Funcionario - 
+
+cpfFuncionario varchar(11) pk
+nomeFuncionario varchar (30) 
+idadeFuncionario date 
+enderecoFuncionario varchar (40)
+Bairro varchar (25)
+cep  vachar(7)
+numero int 
+cidade vachar (25)
+estado vachar (2)
+telefoneFuncionario varchar (14)
+emailFuncionario varchar (30) 
+cargo int fk 
+departamento fk 
+
+Cliente -
+ 
+nomeCliente varchar (30)
+idadeCliente date
+cpfCliente varchar (11) pk
+enderecoCliente varchar (40)
+Bairro varchar (25)
+cep  vachar(7)
+numero int 
+cidade vachar (25)
+estado vachar (2)
+telefoneCliente varchar (14)
+telefoneCliente varchar (14)
+telefoneCliente varchar (14)
+emailCliente varchar (30) 
+emailCliente2  varchar (30) 
+
+Empresa - 
+cnpjEmpresa varchar (14) pk
+nomeEmpresa varchar (30)
+inscricaoEstadual varchar(20)
+enderecoEmpresa varchar (40)
+Bairro varchar (25)
+cep  vachar(7)
+numero int 
+cidade vachar (25)
+estado vachar (2)
+telefoneEmpresa varchar (14)
+telefone2Empresa varchar (14)
+telefone3Empresa varchar (14)
+emailEmpresa varchar (30) 
+emailEmpresa varchar (30) 
+
+Documentos - 
+idDocumento int pk
+nomeDocumento varchar (30)
+
+
+Departamento - 
+id int pk
+nome
+
+
+Processamento - 
+
+id 
+employer - fk 
+departament fk
+tipodoc - fk
+
+Cargo  -
+id int pk
+nomeCargo varchar (30)
+
